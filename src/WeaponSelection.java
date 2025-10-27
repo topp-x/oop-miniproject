@@ -57,10 +57,9 @@ public class WeaponSelection {
         // Sword stats
         g2d.setFont(g2d.getFont().deriveFont(16f));
         String[] swordStats = {
-            "Melee Attack",
-            "Damage: 15",
-            "Range: 50px",
-            "Stamina: 5"
+            // "Melee Attack",
+            // "Damage: 25",
+            // "Stamina: 5"
         };
         int statY = weaponY + 80;
         for (String stat : swordStats) {
@@ -89,10 +88,9 @@ public class WeaponSelection {
         // Bow stats
         g2d.setFont(g2d.getFont().deriveFont(16f));
         String[] bowStats = {
-            "Ranged Attack",
-            "Damage: 10",
-            "Range: 500px",
-            "Stamina: 5"
+            // "Ranged Attack",
+            // "Damage: 20",
+            // "Stamina: 5"
         };
         statY = weaponY + 80;
         for (String stat : bowStats) {
